@@ -1,6 +1,3 @@
-# WSL2-Mac-Utilize-CUDA
-Guide for setting up WSL2 on Windows and utilizing CUDA with a Mac. Installing WSL2 on Windows and Using Mac to Utilize CUDA
-
 ## Why Do This?
 The author uses a Mac but wants to use an Nvidia GPU installed on a Windows machine as computational power for models. Additionally, the author prefers to operate in a Linux system due to its simple interface and abundant commands.
 
