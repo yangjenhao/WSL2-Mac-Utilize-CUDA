@@ -26,7 +26,7 @@ Within the same network, if you have a Mac but its computational power is insuff
 
 ## Downloading WSL
 
-### What is WSL?
+### What's WSL?
 According to Microsoft's official explanation, Windows Subsystem for Linux (WSL) is a feature of Windows that allows you to run a Linux environment on a Windows computer without a separate virtual machine or dual-boot setup. The recommended version is WSL2.
 
 ### Downloading Ubuntu from Microsoft Store
