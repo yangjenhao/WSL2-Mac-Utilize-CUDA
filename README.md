@@ -137,6 +137,14 @@ If successful, you will directly enter the Linux subsystem on Windows.
 
 ![Successful Connection](https://hackmd.io/_uploads/HJIuTR3tC.png)
 
+## More common issue after restart pc
+```
+netsh interface portproxy show all
+netsh interface portproxy delete v4tov4 listenaddress=Pre_IP listenport=22
+netsh interface portproxy add v4tov4 listenaddress=Windows_IP listenport=22 connectaddress=Post_IP connectport=22
+ssh-keygen -R ip
+```
+
 ## Future Topics
 - Setting up Conda environment
 - Installing Nvidia drivers and CUDA on Linux
